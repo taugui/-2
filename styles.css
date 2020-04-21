@@ -1,19 +1,42 @@
-img{
-    width:500px;
-    height:300px;
+.cartoon-area {
+    position: relative;
+    width: 80%;
 }
-.logo{
-    width:60px;
-    height:60px;
+
+.cartoon {
+    width: 100%;
 }
-input{
-    border-radius: 10px;
-    padding: 5px;
+
+.bubble {
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    left: 58%;
 }
-.messages{
-    border: groove grey 2px;
-    height: 200px;
-    margin: 10px;
-    padding: 5px;
+
+.speech-bubble {
+    position: absolute;
+    font-size: 20px;
+    width: 18%;
+    top: 12%;
+    left: 61%;
+}
+
+.history {
+    text-align: center;
+    width: 300px;
+}
+
+.input {
+    text-align: center;
+}
+
+.speech {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.talk {
+    font-size: 28px;
 }
 
